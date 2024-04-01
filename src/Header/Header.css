@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-bar-top{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+}
+.header-bar-top  p {
+    margin: 0;
+}
+
+.header-bar-opt{
+    display: flex;
+    gap: 10px;
+}
+
+.header-bar-opt > a {
+    text-decoration: none ;
+    color: grey;
+    font-size: small;
+}
+
+.header-bar-opt > a:hover {
+    color: black;
+}
+
+.header-bar-opt >li {
+    /* transform: translatex(50%); */
+    height: 13px;
+    border: 1px solid grey;
+    list-style: none;
+    transform: translate(50%, 40%);
+    
+}
+
+.text-top-bar{
+    color: gray;
+    font-size: small;
+}
+
+
+.txt-sm{
+    font-size: small;
+    color: grey;
+}
+
+.angle-down{
+    font-size: 10px;
+}
+
+.Search-more{
+    outline: none;
+    border: none;
+    width: 500px;
+    
+}
+
+.search-box-navmid-bar{
+    border: 2px solid #BCE3C9;
+    width: 700px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.bar-sign{
+    height: 23px;
+    border-right: 1px solid grey;
+    list-style: none;
+    transform: translate(50%, 40%);
+}
+.bold{
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.search-icon{
+    color: gray;
+    font-size: 25px;
+    transform: translateY(15%);
+}
+.noti-badge{
+    background-color: #3BB893;
+}
+
+.btn-cate-all{
+    background-color: #3BB893;
+    color: white;
+    padding: 10px 20px;
+}
+
+.btn-cate-all:hover{
+    background-color: #3BB893;
+    outline: none;
+}
+
+.cus-support{
+    margin-left: 200px;
+}
+.cus-num-support{
+    margin-left: 10px;
+}
+.tel-num{
+    color: #3BB893;
+    font-size: 25px;
+    font-weight: bold;
+}
+.tel-support{
+    color: gray;
+    font-size: small;
+}
